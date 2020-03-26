@@ -38,5 +38,10 @@ flipCard (2);
 } else {
   alert("Sorry, try again.");
  };
-
-
+ function createBoard() {
+	let cardElement = document.createElement('img'); 
+	img.src = 'memorygame/images';
+	document.getElementByTagNane ('cards').appendChild(cardElement);
+for (let i = 0; i < cards.length; i++) {
+}
+};
